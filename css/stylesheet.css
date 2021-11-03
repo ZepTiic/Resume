@@ -1,0 +1,66 @@
+.header-title {
+  color: white;
+  margin-top: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 57, 56);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+nav,
+ul,
+a {
+  list-style-type: none;
+  color: white;
+  padding-right: 20px;
+}
+
+.background {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  margin-top: 15px;
+  padding-top: 3px;
+}
+
+.education_menu {
+  background-color: bisque;
+  width: 50%;
+  height: 50%;
+  margin: 20px 10px 10px 20px;
+}
+
+.education_header {
+  color: white;
+  padding-top: 100px;
+  padding-left: 25%;
+  text-align: justify;
+}
+
+img {
+}
+
+p {
+  color: brown;
+}
+
+.form_contact {
+  background-color: bisque;
+  width: 250px;
+  padding-left: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}

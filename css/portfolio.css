@@ -1,0 +1,60 @@
+* {
+  background-color: #eae0d5;
+  margin: 0;
+  font-family: "lucida console", Courier, monospace;
+}
+
+.color {
+  background-color: #22333b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22333b;
+  position: sticky;
+  padding: 15px;
+  top: 0%;
+}
+
+.navbar_title {
+  padding-left: 10px;
+  flex-basis: 70%;
+  color: #00bd9d;
+}
+
+.navbar_links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 30%;
+}
+
+.navbar_links a {
+  color: #00bd9d;
+  background-color: #22333b;
+}
+
+a:hover {
+  color: #f26419;
+}
+
+.portfolio_menu {
+  display: grid;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #22333b;
+}
+
+.form_contact,
+.form_header,
+.form,
+label {
+  color: white;
+  background-color: #22333b;
+  /* text-align: center; */
+}

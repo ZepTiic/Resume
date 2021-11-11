@@ -1,18 +1,19 @@
 * {
-  background-color: #eae0d5;
+  background-color: hsl(31, 33%, 88%);
   margin: 0;
+  box-sizing: border-box;
   font-family: "lucida console", Courier, monospace;
 }
 
 .color {
-  background-color: #22333b;
+  background-color: hsl(199, 27%, 18%);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #22333b;
+  background-color: hsl(199, 27%, 18%);
   position: sticky;
   padding: 15px;
   top: 0%;
@@ -21,7 +22,7 @@
 .navbar_title {
   padding-left: 10px;
   flex-basis: 70%;
-  color: #00bd9d;
+  color: hsl(170, 100%, 37%);
 }
 
 .navbar_links {
@@ -31,27 +32,27 @@
 }
 
 .navbar_links a {
-  color: #00bd9d;
-  background-color: #22333b;
+  color: hsl(170, 100%, 37%);
+  background-color: hsl(199, 27%, 18%);
 }
 
 a:hover {
-  color: #f26419;
+  color: hsl(21, 89%, 52%);
 }
 
 .proj_menu {
   display: grid;
   height: 72vh;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   margin: 10px;
   padding-right: 10px;
 }
 
 .projects {
-  background-color: brown;
+  background-color: hsl(0, 59%, 41%);
   border-radius: 10px;
-  color: whitesmoke;
+  color: hsl(0, 0%, 96%);
   display: grid;
   place-items: center;
   font-size: xx-large;
@@ -61,13 +62,13 @@ footer {
   display: flex;
   justify-content: center;
   padding: 30px;
-  background-color: #22333b;
+  background-color: hsl(199, 27%, 18%);
 }
 
 .form_contact,
 .form_header,
 .form,
 label {
-  color: white;
-  background-color: #22333b;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(199, 27%, 18%);
 }

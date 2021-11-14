@@ -23,6 +23,7 @@
   padding-left: 10px;
   flex-basis: 70%;
   color: hsl(170, 100%, 37%);
+  font-size: 3em;
 }
 
 .navbar_links {
@@ -34,6 +35,7 @@
 .navbar_links a {
   color: hsl(170, 100%, 37%);
   background-color: hsl(199, 27%, 18%);
+  font-size: 0.84em;
 }
 
 a:hover {
@@ -43,13 +45,14 @@ a:hover {
 .portfolio_content {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50vh 50vh 50vh 50vh;
+  gap: 40px;
+  padding-left: 10px;
 }
 
 .portfolio_menu {
   display: grid;
   grid-row: 1 / -1;
-  height: 60vh;
   place-items: center;
   align-content: space-around;
 }
@@ -60,23 +63,7 @@ a:hover {
 .ref_content {
   display: grid;
   align-content: center;
-  grid-template-columns: repeat(auto-fit / minmax(180px / 1fr));
 }
-s
-/* .exp_content {
-  display: grid;
-  align-content: center;
-}
-
-.ski_content {
-  display: grid;
-  align-content: center;
-}
-
-.ref_content {
-  display: grid;
-  align-content: center;
-} */
 
 footer {
   display: flex;

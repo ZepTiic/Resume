@@ -23,6 +23,7 @@
   padding-left: 10px;
   flex-basis: 70%;
   color: hsl(170, 100%, 37%);
+  font-size: 3em;
 }
 
 .navbar_links {
@@ -33,7 +34,8 @@
 
 .navbar_links a {
   color: hsl(170, 100%, 37%);
-  background-color: #22333b;
+  background-color: hsl(199, 27%, 18%);
+  font-size: 0.84em;
 }
 
 a:hover {
@@ -52,7 +54,7 @@ a:hover {
 
 .about_title {
   font-size: 400%;
-  color: hsl(0, 0%, 96%);
+  color: black;
   background-color: transparent;
 }
 
@@ -63,6 +65,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
+  min-width: 4em;
 }
 
 footer {

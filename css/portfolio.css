@@ -45,9 +45,10 @@ a:hover {
 .portfolio_content {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 50vh 50vh 50vh 50vh;
-  gap: 40px;
+  grid-template-rows: 25vh 25vh 25vh 25vh;
+  gap: 4px;
   padding-left: 10px;
+  /* background-color: grey; */
 }
 
 .portfolio_menu {

@@ -66,6 +66,10 @@ a:hover {
   align-content: center;
 }
 
+/* #table {
+  display: flex;
+} */
+
 footer {
   display: flex;
   justify-content: center;

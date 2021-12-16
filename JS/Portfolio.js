@@ -28,3 +28,7 @@ refrences.forEach((refrence, index) => {
   //   RefTr.append(relation);
   tbRefrences.append(RefTr);
 });
+
+$(`#Education`).click((e) => {
+  $(`#edu_cont`).toggle();
+});

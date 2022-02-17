@@ -22,11 +22,32 @@
   <header class="navbar color">
     <h1 class="navbar_title color">ET</h1>
     <nav class="navbar_links color navbar">
-      <a href="index.html">About</a>
-      <a href="html/portfolio.html">Portfolio</a>
-      <a href="html/projects.html">Projects</a>
+      <a href="index.php">About</a>
+      <a href="html/portfolio.php">Portfolio</a>
+      <a href="html/projects.php">Projects</a>
     </nav>
   </header>
+
+  <?php 
+    $var = "Whats Up Bruv";
+      echo $var;
+
+      echo "<br>";
+
+    $value = 2;  
+    $value2 = 5;
+      echo $value + $value2;
+
+    // $name = array("jim", "jay", "Jane", "jimmy");
+    //   echo '<ul>';
+
+    // foreach($name as $name) {
+    //   echo <li> 
+    // }
+
+    // for ($l = 1; $1 < 5; $1++);
+    //   echo "jim";
+  ?>
 
   <body>
     <section class="about">
@@ -40,6 +61,10 @@
       </p>
     </section>
   </body>
+
+
+
+
 
   <footer>
     <section class="form_contact">

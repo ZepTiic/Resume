@@ -22,9 +22,9 @@
   <header class="navbar color">
     <h1 class="navbar_title color">ET</h1>
     <nav class="navbar_links color navbar">
-      <a href="../index.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="projects.html">Projects</a>
+      <a href="../index.php">About</a>
+      <a href="portfolio.php">Portfolio</a>
+      <a href="projects.php">Projects</a>
     </nav>
   </header>
 
